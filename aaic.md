@@ -14,15 +14,11 @@
 ## Classifications (KNN)
 
 ### What is classification
-Classification is a type of supervised learning. Classification is the process of predicting the class of given data points. Classes are sometimes called as targets/ labels or categories. 
- An example is classifying emails as “spam” or “not spam.”
+Classification is a type of supervised learning. Classification is the process of predicting the class of given data points. Classes are sometimes called as targets/ labels or categories. An example is classifying emails as “spam” or “not spam.”
 
- Here you have input variables (x) and an output variable (Y) and you use an algorithm to learn the mapping function from the input to the output Y = f(X) . The goal is to [approximate the mapping function](#approximate-function) so well that when you have new input data (x) that you can predict the output variables (Y) for that data.
+Here you have input variables (x) and an output variable (Y) and you use an algorithm to learn the mapping function from the input to the output Y = f(X) . The goal is to [approximate the mapping function](#approximate-function) so well that when you have new input data (x) that you can predict the output variables (Y) for that data.
 
-In other words Y = f(X) can be represented as
-
-<p align="center">model = algorithm(data)</p>
-
+In other words Y = f(X) can be represented as **model = algorithm(data)**
 where model is class label, algorithm is [Approximate Function](#approximate-function), data is input 
 
 
