@@ -4,16 +4,18 @@
 ## Table of contents
 
 * [Classifications (KNN)](#classifications-knn)
-* [What is Data Science?](#what-is-data-science)
-* [YouTube Videos & Channels](#youtube-videos--channels)
-* [Other Awesome Lists](#other-awesome-lists)
 
 ## Classifications (KNN)
- - [Books](#books)
+ - [What is classification?](#what-is-classification)
+ - [Classification & Regression](#classification--regression)
  - [Courses](#courses)
- - [Tutorials and Talks](#tutorials-and-talks)
 
 ## Classifications (KNN)
 
-#### Books
-*This part is for dummies who are new to Data Science*
+### What is classification
+Classification is a type of supervised learning. Classification is the process of predicting the class of given data points. Classes are sometimes called as targets/ labels or categories. Classification predictive modeling is the task of approximating a mapping function (f) from input variables (X) to discrete output variables (y).
+
+ An easy to understand example is classifying emails as “spam” or “not spam.”
+
+### Classification & Regression
+This is related to regression
