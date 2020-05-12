@@ -21,7 +21,7 @@ Classification is a type of supervised learning. Classification is the process o
 
 In other words Y = f(X) can be represented as
 
-<center> model = algorithm(data) </center>
+<p align="center">model = algorithm(data)</p>
 
 where model is class label, algorithm is [Approximate Function](#approximate-function), data is input 
 
