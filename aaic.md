@@ -40,26 +40,38 @@ The task of approximating a mapping function (f) from input variables (X) to a c
     |We try to find the decision boundary, which can divide the dataset into different classes.| We try to find the best fit line, which can predict the output more accurately.|
 
 ### KNN
-K Nearest Neighbors or KNN Algorithm is a simple algorithm which uses the entire dataset in its training phase. Whenever a prediction is required for an unseen data instance, it searches through the entire training dataset for k-most similar instances and the data with the most similar instance is finally returned as the prediction. 
+K Nearest Neighbors is a simple algorithm which uses the entire dataset in its training phase. Whenever a prediction is required for an unseen data instance, it searches through the entire training dataset for k-most similar instances  by a majority vote of its neighbors and the data with the most similar instance is finally returned as the prediction. 
 
 ![KNN as 3](assets/knn.jpg)
 
 ### Distance measure in KNN
+* The algorithm calculates the distance of a new data point to all other training 
+* The algorithm then selects the k-nearest data points, where k can be any integer.
+* Finally, it assigns the data point to the class where similar data points lie.
 
-### KNN Limitations
+* Distance measures is as follows:
+    * Euclidean distance(L<sub>2</sub> Norm) : Calculates between a new point (x) and an existing point (xi) across all input attributes j.
+    * Hamming Distance(Boolean): Calculate the distance between binary vectors 
+    * Manhattan Distance(L<sub>1</sub> Norm): Calculate the distance between real vectors using the sum of their absolute difference.
+    * Minkowski Distance(L*p* norma): Generalization of Euclidean and Manhattan distance.
+ > Calculate distance > Find closest neighbors > Vote for label
+ ![Disantance measeures Knn](assets/dm_knn.png)
 
 ### Calculating effectivines/accuracy of KNN
+Evaluate the accuracy of the model is to calculate a ratio of the total correct predictions out of all predictions made.
 
+### KNN Limitations
+Time complexity is O(dMNlog(k)) where d is the dimension of the data M the size of training data and N the size of test data. Alternatively K-D tree reduce the computational cost.
 
 ## Pedia
  - [Approximate Function](#approximate-function)
  - majority vote
  - predictive modelling 
  - model interpretability
+ -  feature scaling (standardization and normalization) 
 
 ## Pedia
 
 #### Approximate Function
 
 It means finding a value nearly equal​ to the actual value of the function at a point or at a set of points. 
-
